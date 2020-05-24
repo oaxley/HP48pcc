@@ -1,0 +1,14 @@
+                        COMPILATEUR HP 48G/GX SUR PC
+                               LEGRAND SEBASTIEN
+
+
+La syntaxe est la suivante:
+
+Les commentaires debutent toujours avec %
+Les labels debutent toujours avec *
+La syntaxe est celle du Saturn en separant les operandes :
+        D0=D0+ 5 et non D0=D0+5
+ou      DAT0=A A
+
+
+

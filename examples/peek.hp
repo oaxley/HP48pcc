@@ -1,0 +1,60 @@
+gosbvl 0679b
+c=dat1 a
+d0=c
+d0=d0+ 10
+a=dat0 a
+lc 7fff0
+?c<a a
+goyes l0
+c=a a
+*l0
+c=c+c a
+gosbvl 05b7d
+
+ad0ex
+c=dat1 a
+d0=c
+
+d0=d0+ 10
+c=dat0 a
+
+b=c a
+d1=d1+ 5
+c=dat1 a
+d0=c
+
+d0=d0+ 10
+c=dat0 a
+d1=c
+d0=a
+
+*l1
+?b=0 a
+goyes l3
+a=0 b
+a=dat1 1
+lc 30
+a=a+c b
+lc 39
+?c>=a b
+goyes l2
+lchex 07
+a=a+c b
+
+*l2
+dat0=a b
+d0=d0+ 2
+d1=d1+ 1
+b=b-1 a
+goto l1
+
+*l3
+gosbvl 067d2
+d1=d1+ 5
+d=d+1 a
+c=r0
+dat1=c a
+a=dat0 a
+d0=d0+ 5
+pc=(a)
+

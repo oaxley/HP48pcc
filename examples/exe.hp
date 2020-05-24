@@ -1,0 +1,20 @@
+gosbvl 0679b %sauve registre
+c=0 a
+
+*boucle
+a=dat1 a
+?a=0 a
+goyes fin
+
+c=c+1 a
+d1=d1+ 5
+goto boucle
+
+*fin
+r0=c
+
+gosbvl 067d2 %load registre
+gosbvl 06537 %push r0
+
+la 05445
+pc=(a)

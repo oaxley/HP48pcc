@@ -1,0 +1,19 @@
+%RECUPERE L'ADRESSE DU NIVEAU 1 DE LA PILE
+A=DAT1 A
+?A=0 a
+goyes erreur
+d1=d1+ 5
+c=dat1 a
+?c=0 a
+goyes erreur
+dat1=a a
+d1=d1- 5
+dat1=c a
+
+gosbvl 2d564
+
+
+%GESTIONNAIRE D'ERREUR
+*erreur
+la 00201
+gosbvl 05023
